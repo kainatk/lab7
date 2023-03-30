@@ -5,8 +5,8 @@ function init(){
     document.getElementById('textoutput').innerHTML = textbox.value;
     alert("Daniel Krieglstein: " + textbox.value);
   }
-  
-  
+  button.addEventListener('click', showMeText);
+  }
   
   
 window.addEventListener('load', init);
