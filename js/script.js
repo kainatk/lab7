@@ -3,7 +3,7 @@ function init(){
   function showMeText(){
     var textbox = document.getElementById('entryinput');
     document.getElementById('textoutput').innerHTML = textbox.value;
-    alert("Daniel Krieglstein: " + textbox.value);
+    alert("Kainat Khan: " + textbox.value);
   }
   button.addEventListener('click', showMeText);
   }
